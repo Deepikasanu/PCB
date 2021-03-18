@@ -1,0 +1,419 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>medical-pluse</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style1.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+   		 <!-- webfonts -->
+   		 <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+   		  <!-- webfonts -->
+   		  <style type="text/css">
+   		  .page-header{
+   		  color:lightblue;
+   		  width:160px;
+   		  margin-left:450px;
+   		  text-shadow:4px 5px 4px purple;
+   		  
+   		  }
+   		  
+   		  </style>
+   		  
+   		  
+	</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<!-- logo -->
+					<div class="logo">
+						<a href="index.html"><img alt="image" src="images/2f69af55-71ac-43eb-8c6d-4efa4497be44.png"></a>
+					</div>  
+					<!-- logo -->
+					<!-- top-nav -->
+					<div class="top-nav"><a href="Admin.html">Admin Login</a>   &nbsp;&nbsp;&nbsp;&nbsp; <a href="Login.html">Login</a>&nbsp;<a href="Registration.html">Register</a>
+						<span class="menu"> </span>
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<!-- <li><a href="services.html">Services</a></li>
+							<li><a href="blog.html">Blog</a></li> -->
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<!-- top-nav -->
+					<!-- script-for-nav -->
+					<script>
+						$(document).ready(function(){
+							$("span.menu").click(function(){
+								$(".top-nav ul").slideToggle(300);
+							});
+						});
+					</script>
+					<!-- script-for-nav -->
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- /header -->
+		</div>
+		<!-- /container -->
+		<!-- banner -->
+		<div class="benner">
+				<!-- slider -->
+				<!--- img-slider --->
+				<div class="img-slider">
+						<!----start-slider-script---->
+					<script src="js/responsiveslides.min.js"></script>
+					 <script>
+					    // You can also use "$(window).load(function() {"
+					    $(function () {
+					      // Slideshow 4
+					      $("#slider4").responsiveSlides({
+					        auto: true,
+					        pager: true,
+					        nav: true,
+					        speed: 500,
+					        namespace: "callbacks",
+					        before: function () {
+					          $('.events').append("<li>before event fired.</li>");
+					        },
+					        after: function () {
+					          $('.events').append("<li>after event fired.</li>");
+					        }
+					      });
+					
+					    });
+					  </script>
+					<!----//End-slider-script---->
+					<!-- Slideshow 4 -->
+					    <div  id="top" class="callbacks_container">
+					      <ul class="rslides" id="slider4">
+					        <li>
+					          <img class="img-responsive" src="images/slide1.jpg" alt="">
+					          <div class="slider-caption">
+					          	<h1>medical<span>+</span></h1>
+					         	 <p>Patients' medical information can be shared by a number of people both within the health care industry and beyond. </p>
+					         	 <a class="caption-btn" href="#">ReadMore</a>
+					          </div>
+					        </li>
+					        <li>
+					          <img src="images/hioxindia-pharmacy_04.jpg" alt="">
+					           <div class="slider-caption">
+					          	<h1>medical<span>+</span></h1>
+					          	<p>The medical record is the property of the hospital. The patient does not automatically receive a copy of his/her medical record upon discharge from the hospital. </p>
+					            <a class="caption-btn" href="#">ReadMore</a>
+					          </div>
+					        </li>
+					        <li>
+					          <img src="images/med.jpg" alt="">
+					           <div class="slider-caption">
+					           	<h1>medical<span>+</span></h1>
+					           <p>Patient-related information may also be released to a physician or medical facility for follow-up care of the patient when needed, free of charge. </p>
+					           <a class="caption-btn" href="#">ReadMore</a>
+					          </div>
+					        </li>
+					      </ul>
+					    </div>
+					    <div class="clearfix"> </div>
+					</div>
+						<!-- slider -->
+					</div>
+		<!-- /banner -->
+		<!-- top-grids -->
+		<!-- <div class="top-grids text-center">
+			<div class="container">
+				<div class="col-md-3">
+					<div class="top-grid">
+						<span class="t-icon1"> </span>
+						<h3>Lorem</h3>
+						 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. lectus in quam elementum aliquet.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="top-grid">
+						<span class="t-icon2"> </span>
+						<h3>adipiscing</h3>
+						 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. lectus in quam elementum aliquet.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="top-grid">
+						<span class="t-icon3"> </span>
+						<h3>elementum</h3>
+						 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. lectus in quam elementum aliquet.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="top-grid">
+						<span class="t-icon4"> </span>
+						<h3>aliquet</h3>
+						 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. lectus in quam elementum aliquet.</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			
+		</div> -->
+		<!-- top-grids -->
+		<!-- mid-grids -->
+		<div class="container">
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Products
+                    <small></small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="images/imageedit.png" alt="">
+                </a>
+                <h3 style="color:green">
+                    <a href="#">Medisys Double Mass Gainer</a>
+                </h3>
+                <p style="color:lightblue">Medisys Double Mass Gainer supplies 340Kcal energy in each serving to add fuel to your heavy workouts.Added dietary fiber to maximize absorption of nutrients.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="images/zeebodygrow.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">Body Grow</a>
+                </h3>
+                <p>Zee Body Grow Powder enhances power gives strength to muscles suitable for all ages.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="images/HTB1rCrGXaagSKJjy0Fc763ZeVXaJ.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">Ayurveda Spirulina </a>
+                </h3>
+                <p>This nutrient rich substance is actually a cyanobacteria and it boasts its fair share of health promoting properties.</p>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="images/AE-Banner.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="#">DIAB ZEN 90</a>
+                </h3>
+                <p>Diab Zen has famous Ayurvedic Indian Herbs, to reduce joint pains, and for treating tastelessness of tongue, insomnia (sleeplessness), etc. It is used extensively in the treatment of urinary tract disorder, Anemia, Jaundice, Asthama, cardiac disorders, and especially DIABETES.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="images/TopProducts.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="#">Garcinia gummi-gutta</a>
+                </h3>
+                <p>Garcinia gummi-gutta is a tropical species of Garcinia native to Indonesia. Common names include Garcinia cambogia, as well as brindleberry, Malabar tamarind, and kudam puli.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="images/fb.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="#">Biotique </a>
+                </h3>
+                <p>Ayurvedic Skin Care on Pinterest | Skin care, Prevent wrinkles and How to reduce dandruff</p>
+            </div>
+        </div>
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="images/attitude-700x467.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="#">ECO Attitude</a>
+                </h3>
+                <p> personal care and household products that are free of chemical contaminants.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="images/DSCN1372.JPG" alt="">
+                </a>
+                <h3>
+                    <a href="#">Johnson's Baby </a>
+                </h3>
+                <p>Enriched with avocado and pro-vitamin B5
+Clinically proven mild ensuring no irritation to your baby's tender scalp
+Mild perfume, pure and non-sticky oil to make your baby feel comfortable</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="images/TUPPERWARE_Nourishing-skin-care.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="#">Baby Care Plus</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- /.row -->
+		<!-- <div class="mid-grids">
+			<div class="col-md-6 mid-grid-left">
+				
+			</div>
+			<div class="col-md-6 mid-grid-right"> -->
+				<!-- <h2>About Us</h2>
+				<p>Ut mollis hendrerit lectus vel dapibus. Donec eget sapien sed nibh volutpat pellentesque nec ac nunc. Integer nec vehicula ipsum. Aenean gravida erat odio, non pharetra sem malesuada ut. Fusce volutpat, ligula vitae suscipit egestas, ligula arcu condimentum augue, ac varius lectus lacus at quam. Vestibulum sed aliquam turpis. Etiam semper elit in libero aliquet, vitae fermentum nulla gravida. Praesent ut sapien id orci lobortis varius.</p>
+				<p>Sed non nibh porttitor, tristique diam non, lobortis nisl. Proin et mauris ac urna posuere gravida a semper felis. Morbi congue elit eu scelerisque sagittis. Vestibulum blandit quam vitae pretium mollis. Nunc bibendum est a nibh finibus pellentesque.</p>
+				<p>ac urna posuere gravida a semper felis. Morbi congue elit eu scelerisque sagittis. Vestibulum blandit quam vitae pretium mollis. Nunc bibendum est a nibh finibus pellentesque.</p>
+				<a class="about-btn" href="about.html">ReadMore</a> -->
+			<!-- </div>
+			<div class="clearfix"> </div>
+		</div> -->
+		<!-- mid-grids -->
+		<!-- bottom-grids -->
+		<div class="bottom-grids">
+				<h2>Latest-News</h2>
+				<div class="bottom-grid bottom-grid1">
+					<div class="container">
+					<div class="col-md-3 bottom-grid-left">
+						<a href="#"><img src="images/pic1.jpg" title="name" /></a>
+					</div>
+					<div class="col-md-9 bottom-grid-right">
+						<p>DR. ARATI RAMA RAO
+Consultant
+Paediatrics
+Whitefield - Bengaluru</p>
+						<a class="news-btn" href="#">ReadMore</a>
+					</div>
+					<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="bottom-grid bottom-grid2">
+					<div class="container">
+					<div class="col-md-3 bottom-grid-left">
+						<a href="#"><img src="images/pic2.jpg" title="name" /></a>
+					</div>
+					<div class="col-md-9 bottom-grid-right">
+						<p>DR. SUNIL KOSHY
+Consultant
+Dental Medicine
+Whitefield - Bengaluru</p>
+						<a class="news-btn" href="#">ReadMore</a>
+					</div>
+					<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="bottom-grid bottom-grid3">
+					<div class="container">
+					<div class="col-md-3 bottom-grid-left">
+						<a href="#"><img src="images/pic3.jpg" title="name" /></a>
+					</div>
+					<div class="col-md-9 bottom-grid-right">
+						<p>DR. A OLITHSELVAN
+Consultant Hepatologist
+Organ Transplant
+Jayanagar - Bengaluru</p>
+						<a class="news-btn" href="#">ReadMore</a>
+					</div>
+					<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+				<!-- <a class="load-news" href="#">LoadMore</a> -->
+			</div>
+		</div>
+		<!-- bottom-grids -->
+		<!-- team -->
+		<!-- <div class="team">
+						<div class="container">
+							<div class="team-head text-center">
+								<h3>Our team</h3>
+							</div>
+							team-grids
+							<div class="team-grids">
+								<div class="col-md-4">
+									<div class="team-grid">
+										<div class="team-people">
+											<div class="team-people-pic">
+												<img src="images/d1.jpg" title="name">
+											</div>
+											<div class="team-people-info">
+												<h3>Established</h3>
+												<p>reader will be distracted by the readable</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="team-grid">
+										<div class="team-people">
+											<div class="team-people-pic">
+												<img src="images/d2.jpg" title="name">
+											</div>
+											<div class="team-people-info">
+												<h3>Established</h3>
+												<p>reader will be distracted by the readable</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="team-grid">
+										<div class="team-people">
+											<div class="team-people-pic">
+												<img src="images/d3.jpg" title="name">
+											</div>
+											<div class="team-people-info">
+												<h3>Established</h3>
+												<p>reader will be distracted by the readable</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div> -->
+		<!-- team -->
+		<!-- team-grids-caption -->
+		<!-- <div class="team-grids-caption">
+								<div class="container">
+									<div class="team-grids-caption-left">
+										<h4>He point of using Lorem Ipsum is that</h4>
+										<p>as opposed to using Many desktop publishing packages and web page editors now use </p>
+									</div>
+									<div class="team-grids-caption-right">
+										<a class="team-btn" href="contact.html">Contact</a>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							</div> -->
+		<!-- team-grids-caption -->
+		<!-- footer -->
+		<div class="footer">
+			<div class="container">
+				<p class="copy-right">Design by <a href="#">Rubiya</a></p>
+			</div>
+		</div>
+		<!-- /footer -->
+	</body>
+</html>
+

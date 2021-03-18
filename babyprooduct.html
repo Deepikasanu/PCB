@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<title>Online Pharmacy</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.elevatezoom.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/2f69af55-71ac-43eb-8c6d-4efa4497be44.png" title="medicalpluse" /></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="feedback.html">FeedBack</a>
+                        </li>
+                    <li>
+                        <a href="Userout.jsp">Logout</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+<br><br>
+
+ <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead">Categories</p>
+                <div class="list-group">
+                    <a href="babyprooduct.html" class="list-group-item">Baby Care</a>
+                    <a href="Health.html" class="list-group-item">Health Care</a>
+                    <a href="vitamin.html" class="list-group-item">Vitamins</a>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+
+                <!-- <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                </div>
+                            </div> -->
+                            <!-- <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div> -->
+
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img  id="zoom_01" src='images/himalaya-babycare.jpg' data-zoom-image="images/himalaya-babycare.jpg"  alt="" />
+                            <script>
+    $('#zoom_01').elevateZoom({
+    zoomType: "inner",
+cursor: "crosshair",
+zoomWindowFadeIn: 500,
+zoomWindowFadeOut: 750
+   }); 
+</script>
+                            <div class="caption">
+                                <h4 class="pull-right">549 Rs</h4>
+                                <h4><a href="detail3.jsp">Himalaya BabyCare</a>
+                                </h4>
+                                <p>Baby’s skin is the most sensitive skin, especially the newborns. Mothers are always extra sensitive for their infant and they always make sure to leave no loop holes in taking care of their kid. <a href="detail3.jsp"> Product Detail</a>.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img id="zoom_08" src='images/b36deb0895798.jpg' data-zoom-image="images/b36deb0895798.jpg"  alt="">
+                            <script type="text/javascript">
+                            $("#zoom_08").elevateZoom({
+                    			zoomWindowFadeIn: 500,
+                    			zoomWindowFadeOut: 500,
+                    			lensFadeIn: 300,
+                    			lensFadeOut: 300
+                    });
+                            
+                            </script>
+                            
+                            
+                            <div class="caption">
+                                <h4 class="pull-right">600 Rs</h4>
+                                <h4><a href="detail2.jsp">Jhonson's Baby</a>
+                                </h4>
+                                <p>The arrival of a new member in family is always a fulfilling experience. And, if it’s a newborn then obviously things are more different and beautiful. <a href="#">Product Detail</a></p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img id="zoom_05" src="images/9943708_w800.png"  data-zoom-image="images/9943708_w800.png" alt="">
+                           
+                            <script>
+                            $("#zoom_05").elevateZoom({
+                            	  zoomType				: "inner",
+                            	  cursor: "crosshair"
+                            	});
+</script>
+                           
+                            
+                            <div class="caption">
+                                <h4 class="pull-right">250 Rs</h4>
+                                <h4><a href="#">Organic baby care<br> products
+                                </a>
+                                </h4>
+                                <p>Every day the Tidoo Care range contributes its benefits to the hygiene of your children. <a href="#">Product Detail</a></p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">31 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/TUPPERWARE_Nourishing-skin-care.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">309 Rs</h4>
+                                <h4><a href="#">Baby Care Plus</a>
+                                </h4>
+                                <p>Milk Baby Bath Gently cleanses and conditions baby's sensitive skin and hair leaving it soft,smooth, and freshly scented.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/519Gxm3zSpL.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rs.550</h4>
+                                <h4><a href="#">Himalaya Baby </a>
+                                </h4>
+                   <p>Himalaya baby diaper offers great comfort to the baby
+                            Rash free</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/41SmGf2mbgL._SY450_.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rs.145</h4>
+                                <h4><a href="#">Libero</a>
+                                </h4>
+                                <p>These diapers are airy, thin with naturally soft material
+Made from skin friendly and natural materials.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/jf-001-sunbaby-bath.jpeg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">1800 Rs</h4>
+                                <h4><a href="#">Sunbaby Bath Tub</a>
+                                </h4>
+                                <p>Bath time is an important ritual of a day for both parents and babies, as they share a fun and relaxing time together with lots of cuddles and giggles. </p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">6 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/baby-cream.jpg"  alt="">
+                            
+                            
+                            <div class="caption">
+                                <h4 class="pull-right">849 Rs</h4>
+                                <h4><a href="#">Sebamed Baby Powder</a>
+                                </h4>
+                                <p>Helps to prevent friction on baby's delicate skin and reduces effects of rubbing and chaffing. Extra soft formula with allantoin helps in protecting baby's delicate skin against irritation. Prevents nappy rash.
+
+</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">18 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src='images/sunbaby-bath.jpg' alt="">
+                         
+                            <div class="caption">
+                                <h4 class="pull-right">999 Rs</h4>
+                                <h4><a href="#">Sunbaby Bath Tub <br> With Bath Sling</a>
+                                </h4>
+                                <p>This bath sling, presented to you by Sunbaby, ensures that your baby loves his bath time.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">18 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

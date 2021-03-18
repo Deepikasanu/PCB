@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Material Design Login Form</title>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style1.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+   		 <!-- webfonts -->
+   		 <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+   		  <!-- webfonts -->
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+body{
+background-image:url("images/banner.jpg");
+}
+
+</style>
+  
+</head>
+
+<body>
+
+  <!--Google Font - Work Sans-->
+<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="import" href="https://www.polymer-project.org/0.5/components/paper-ripple/paper-ripple.html">
+<div class="logo">
+						<a href="index.html"><img alt="image" src="images/2f69af55-71ac-43eb-8c6d-4efa4497be44.png"></a>
+					</div>
+					<!-- logo -->
+					<!-- top-nav -->
+					<div class="top-nav">
+						<span class="menu"> </span>
+						<ul>
+							<li class=""><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<!-- <li><a href="services.html">Services</a></li>
+							<li><a href="blog.html">Blog</a></li> -->
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+<form action="LoginServlet" method="post">
+<div class="container">
+  <div class="profile"><h1 style="text-align:center"></h1>
+    <button class="profile__avatar" id="toggleProfile">
+     <img src="images/admin.jpg" alt="Avatar" /> 
+    </button>
+    <div class="profile__form">
+      <div class="profile__fields">
+        <div class="field">
+          <input type="text" id="fieldUser" name="username" class="input" required pattern=.*\S.* />
+          <label for="fieldUser" class="label">Username</label>
+        </div>
+        <div class="field">
+          <input type="password" id="fieldPassword" name="password" class="input" required pattern=.*\S.* />
+          <label for="fieldPassword" class="label">Password</label>
+        </div>
+         
+        <div class="profile__footer">
+           <div class="button raised blue">
+           <div class="center" fit><input type="submit" value="LOGIN" style="color:#19b5fe"></div>
+            <paper-ripple fit></paper-ripple>
+          </div>
+        </div>
+      </div>
+     </div> 
+  </div>
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

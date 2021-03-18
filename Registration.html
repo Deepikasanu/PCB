@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Market City</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/shop-homepage.css" rel="stylesheet">
+   		 <!-- Custom Theme files -->
+   		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+   		 <!-- webfonts -->
+   		 <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+   		  <!-- webfonts -->
+<link rel="stylesheet" href="http://www.html5andcss3.org/form.css" type="text/css"/>
+<script type="text/javascript" src="http://www.html5andcss3.org/form.js"></script>
+<script type="text/javascript">
+		H5F.listen(window,"load",function () {
+			H5F.setup(document.getElementById("signup"));
+		},false);
+	</script>
+	
+</head>
+<body>		
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/2f69af55-71ac-43eb-8c6d-4efa4497be44.png" /></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+ <form id="signup" action="RegisterServlet"   method="post">
+  <h1></h1>
+  <h2 style="color:red;">Fields marked (*) are required</h2>
+  <fieldset>
+   <legend>Register Here</legend>
+   <ol>
+    <li>
+     <label for="firstname">First Name *</label>
+     <input type="text" id="firstname" name="firstname" placeholder="First Name" required />
+    </li>
+    <li>
+    <label for="lastname">Last Name *</label>
+    <input type="text" id="lastname" name="lastname" placeholder="Last Name" required />
+    </li>
+    
+     <li>
+     <label for="email">Email *</label>
+     <input type="email" id="email" name="email" placeholder="e.g. ahmed@example.com" title="Please enter a valid email" required />
+     <p class="validation01">
+      <span class="invalid">Please enter a valid email address e.g. ahmed@example.com</span>
+      <span class="valid">Your email address is now valid</span>
+     </p>
+    </li>
+    
+    <li>
+     <label for="password">Password *</label>
+     <input id="" name="password" type="password" title="Minimum 8 characters, one number, one uppercase and one lowercase letter"  required />
+    <!--  <p class="">
+      <span class="">Minimum 8 characters, one number, one uppercase letter and one lowercase letter</span>
+      <span class="valid">Your password meets our requirements, thank you.</span>
+     </p> -->
+    </li>
+    <li>
+     <label for="password">Retype Password *</label>
+     <input id="" name="repassword" type="password" title="Minimum 8 characters, one number, one uppercase and one lowercase letter"  required />
+    <!--  <p class="">
+      <span class="">Minimum 8 characters, one number, one uppercase letter and one lowercase letter</span>
+      <span class="valid">Your password meets our requirements, thank you.</span>
+     </p> -->
+    </li>
+    <li>
+    <label for="tel">Mobile *</label>
+     <input type="tel" id="tel" name="tel" pattern="[789][0-9]{9}" placeholder="Please enter a ten digit phone number" required />
+     </li>
+      <li>
+     <label for="address">Address *</label>
+     <textarea id="address" name="address" type="text" required></textarea>
+    </li>
+    <li>
+     <label for="postcode">Post code *</label>
+     <input id="postcode" name="postcode" type="number" min="10001" max="999999" maxlength="6" required />
+     <p class="validation01">
+      <span class="invalid">Your postcode is out of range between 10001 - 999999</span>
+       <span class="valid">Your postcode is in the correct range</span>
+     </p>
+    </li>
+    <li>
+     <label for="username">Gender *</label>
+     <input id="radio" name="radio" type="radio" required />Male <input id="radio" name="radio" type="radio" required />Female
+    </li>
+    <li>
+     <label for="state">City</label>
+     <select name="city" id="state">
+      <option selected>Bangalore</option>
+      <option>pune</option>
+      <option>Hubli</option>
+      <option>Mangalore</option>
+      <option>Hyderabad</option>
+      <option>Chennai</option>
+      <option>Kasargod</option>
+      <option>Kochi</option>
+     </select>
+    </li>   
+    <li>
+     <label for="state">State</label>
+     <select name="state" id="state">
+      <option selected>Karnataka</option>
+      <option>kerala</option>
+      <option>Andra pradesh</option>
+      <option>Tamil Nadu</option>
+     </select>
+    </li>    
+   </ol>
+  </fieldset>
+  <input type="submit" value="Sign up"  onclick="myFunction()" style="background:#00C492; color:#fff;"/>
+ </form>
+ <br><br>
+ <div class="footer">
+			<div class="container">
+				<p class="copy-right">Design by <a href="#">Shohiba</a></p>
+			</div>
+		</div>
+</body>
+</html>
